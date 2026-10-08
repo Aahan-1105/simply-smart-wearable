@@ -2576,6 +2576,12 @@
 		(uuid "47794247-f78a-4f88-ba4a-4d5f651110b1")
 	)
 	(junction
+		(at 142.24 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "507660a5-e97b-4fcf-b6f0-9f6dbc241f73")
+	)
+	(junction
 		(at 146.05 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2604,10 +2610,6 @@
 	(no_connect
 		(at 137.16 121.92)
 		(uuid "1f31738c-2217-43b0-90db-4f88b3d7a31f")
-	)
-	(no_connect
-		(at 142.24 69.85)
-		(uuid "215b323b-42ce-4f0d-9d9d-ea6852583e72")
 	)
 	(no_connect
 		(at 104.14 77.47)
@@ -2908,6 +2910,16 @@
 			(type default)
 		)
 		(uuid "7ac4e612-7cf1-4701-a20a-cbdb6cc20d4d")
+	)
+	(wire
+		(pts
+			(xy 142.24 69.85) (xy 142.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82096f92-3c38-4dd3-809b-fa926d31fc1e")
 	)
 	(wire
 		(pts
@@ -3381,7 +3393,7 @@
 			(uuid "194ded6e-fde9-42d9-b9d7-79e301d574cb")
 		)
 		(instances
-			(project "Untitled"
+			(project "simply_wearable"
 				(path "/3262e707-f2b1-490b-9ca0-ca8904fc963b"
 					(reference "R4")
 					(unit 1)
@@ -3463,7 +3475,7 @@
 			(uuid "2ad62945-ce16-450a-89c9-bf3504aea624")
 		)
 		(instances
-			(project "Untitled"
+			(project "simply_wearable"
 				(path "/3262e707-f2b1-490b-9ca0-ca8904fc963b"
 					(reference "C1")
 					(unit 1)
@@ -3543,7 +3555,7 @@
 			(uuid "bdec25e4-c3ca-47e4-ad05-f2db3962bc2f")
 		)
 		(instances
-			(project "Untitled"
+			(project "simply_wearable"
 				(path "/3262e707-f2b1-490b-9ca0-ca8904fc963b"
 					(reference "SW2")
 					(unit 1)
@@ -3640,7 +3652,7 @@
 			(uuid "afa05a4d-acef-4d35-a8a2-b32b321b2f43")
 		)
 		(instances
-			(project "Untitled"
+			(project "simply_wearable"
 				(path "/3262e707-f2b1-490b-9ca0-ca8904fc963b"
 					(reference "J3")
 					(unit 1)
@@ -3720,7 +3732,7 @@
 			(uuid "6f1abfd5-5db3-445d-b3dc-fb6ebc8d6ae1")
 		)
 		(instances
-			(project "Untitled"
+			(project "simply_wearable"
 				(path "/3262e707-f2b1-490b-9ca0-ca8904fc963b"
 					(reference "R3")
 					(unit 1)
@@ -3808,7 +3820,7 @@
 			(uuid "3f86bc13-66ee-4bb6-93ea-a3b5114644b1")
 		)
 		(instances
-			(project "Untitled"
+			(project "simply_wearable"
 				(path "/3262e707-f2b1-490b-9ca0-ca8904fc963b"
 					(reference "U2")
 					(unit 1)
@@ -4062,7 +4074,7 @@
 			(uuid "21511695-a036-475e-b603-ecbbae15200b")
 		)
 		(instances
-			(project "Untitled"
+			(project "simply_wearable"
 				(path "/3262e707-f2b1-490b-9ca0-ca8904fc963b"
 					(reference "S1")
 					(unit 1)
@@ -4155,7 +4167,7 @@
 			(uuid "0dcf3888-b652-485e-b6bd-e99b5155f98b")
 		)
 		(instances
-			(project "Untitled"
+			(project "simply_wearable"
 				(path "/3262e707-f2b1-490b-9ca0-ca8904fc963b"
 					(reference "J4")
 					(unit 1)
@@ -4316,7 +4328,7 @@
 			(uuid "cf43094f-8911-4c1b-b973-dc77abedbaf0")
 		)
 		(instances
-			(project "Untitled"
+			(project "simply_wearable"
 				(path "/3262e707-f2b1-490b-9ca0-ca8904fc963b"
 					(reference "U1")
 					(unit 1)
@@ -4398,7 +4410,7 @@
 			(uuid "e71a86e9-4f98-4431-aa5f-cb3290f72a83")
 		)
 		(instances
-			(project "Untitled"
+			(project "simply_wearable"
 				(path "/3262e707-f2b1-490b-9ca0-ca8904fc963b"
 					(reference "J1")
 					(unit 1)
@@ -4478,7 +4490,7 @@
 			(uuid "48f11927-87ef-48f7-b1b0-70393a5041ee")
 		)
 		(instances
-			(project "Untitled"
+			(project "simply_wearable"
 				(path "/3262e707-f2b1-490b-9ca0-ca8904fc963b"
 					(reference "SW1")
 					(unit 1)
