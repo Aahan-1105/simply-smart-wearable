@@ -1,4 +1,7 @@
+#include <Adafruit_TinyUSB.h>
 #include <Arduino.h>
+#include "display.h"
+#include "step_counter.h"
 
 // put function declarations here:
 int myFunction(int, int);
