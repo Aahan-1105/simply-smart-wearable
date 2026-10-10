@@ -2,14 +2,16 @@
 
 StepCounter::StepCounter() {}
 
-bool StepCounter::beign() {
-    bmi160.begin(BMI160GenClass::I2C_MODE, BMI160_I2C_ADDR);
+bool StepCounter::begin() {
+    if (!bmi160.begin(BMI160GenClass::I2C_MODE, BMI160_I2C_ADDR)) {
+        return false;
+    }
 
     if (bmi160.getDeviceID() != 0xD1) {
         return false;
     }
 
-    bmi160.setStepDetectionMode(MBI160_STEP_MODE_NORMAL);
+    bmi160.setStepDetectionMode(BMI160_STEP_MODE_NORMAL);
     bmi160.setStepCountEnabled(true);
 
     return true;
@@ -23,9 +25,9 @@ void StepCounter::reset() {
     bmi160.resetStepCount();
 }
 
-coid StepCounter::setupInterrupt(void (*ISR_callback)()) {
+void StepCounter::setupInterrupt(void (*ISR_callback)()) {
     pinMode(BMI160_INT1_PIN, INPUT_PULLDOWN);
     attachInterrupt(digitalPinToInterrupt(BMI160_INT1_PIN), ISR_callback, RISING);
-
+    
     bmi160.setIntStepEnabled(true);
 }
